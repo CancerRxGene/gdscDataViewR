@@ -61,7 +61,7 @@ shinyServer(function(input, output, session) {
     DT::datatable(
       model_results(),
       filter = 'top',
-      options = list(searching = F)
+      options = list(searching = T)
     )
   )
   
